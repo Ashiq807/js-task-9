@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <script>
+        let myPoints = 3;
+        function add3Points(myPoints){
+            myPoints = myPoints + 3;
+            return myPoints;
+        }
+        function remove1Point(myPoints){
+            myPoints = myPoints - 1;
+            return myPoints;
+        }
+        myPoints = add3Points(myPoints);
+        myPoints = add3Points(myPoints);
+        myPoints = add3Points(myPoints);
+        myPoints = remove1Point(myPoints);
+        myPoints = remove1Point(myPoints);
+        console.log(myPoints);
+
+    </script>
+</body>
+</html>
